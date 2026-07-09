@@ -350,7 +350,7 @@ nav {
     width: 97%;
     height: 90%;
     border-radius: 30px;
-    background-image: url(../assets/back.jpg);
+    background-image: url(/assets/back.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -497,7 +497,7 @@ nav {
     width: 30%;
     height: 100%;
     border-radius: 20px;
-    background-image: url(../assets/back.jpg);
+    background-image: url(/assets/back.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -518,7 +518,7 @@ nav {
     width: 65%;
     height: 100%;
     border-radius: 20px;
-    background-image: url(../assets/patient.avif);
+    background-image: url(/assets/patient.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -553,7 +553,7 @@ nav {
     font-size: 13px;
 }
 .fourthfoot:nth-child(2){
-    background-image: url(../assets/Dental_Implant.jpg);
+    background-image: url(/assets/Dental_Implant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -577,7 +577,7 @@ nav {
 #fifthdiv{
     width: 97%;
     height: 90%;
-    background-image: url(../assets/back.jpg);
+    background-image: url(/assets/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

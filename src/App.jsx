@@ -18,7 +18,7 @@ export default function App() {
           <button>Book appointment</button>
         </div>
         <div id="homeimg">
-          <img src="./assets/landing.png" alt="" />
+          <img src="/assets/landing.png" alt="" />
           <div id="scrollarrow">
             <div id="arrow">
               <a href="#secondpage">
@@ -58,7 +58,7 @@ export default function App() {
         </div>
         <div className="secdiv">
           <div className="secimgdiv">
-            <img src="./assets/medical.png" alt="" />
+            <img src="/assets/medical.png" alt="" />
           </div>
         </div>
       </div>
@@ -152,7 +152,7 @@ export default function App() {
             </div>
             <div className="fifthmain">
               <div id="candidimg">
-                <img src="./assets/candid.jpg" alt="" />
+                <img src="/assets/candid.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function App() {
       <div id="foot">
         <div className="footdiv">
           <div className="footimg">
-            <img src="./assets/Dentist.jpg" alt="" />
+            <img src="/assets/Dentist.jpg" alt="" />
           </div>
         </div>
         <div className="footdiv">

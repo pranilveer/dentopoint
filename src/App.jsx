@@ -189,7 +189,7 @@ export default function App() {
       </div>
 
       <footer>
-        <p>Copyright &copy; <span><a href="https://www.instagram.com/rick_u_/">Bharadwaja Sahoo</a></span> 2024.</p>
+        <p>Copyright &copy; <span><a href="https://www.instagram.com/codecruxdev/">CodecruxDev</a></span> 2026.</p>
       </footer>
 
       <MenuBar isOpen={menuOpen} onClose={() => setMenuOpen(false)} />

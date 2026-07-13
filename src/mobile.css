@@ -1,220 +1,661 @@
-/* For Small Devices */
-@media screen and (max-width:679px){
-    #homeimg img {
-        z-index: 0;
-        height: 50%;
-        bottom: 0;
-        left: 0;
+/* =============================================
+   RESPONSIVE STYLES
+   Breakpoints: 1024px (tablet/medium), 768px (tablet/phone), 480px (small phone)
+   ============================================= */
+
+/* ---- TABLET / MEDIUM SCREENS (max-width: 1024px) ---- */
+@media screen and (max-width: 1024px) {
+
+    /* --- Navbar --- */
+    .leftnav {
+        padding: 30px;
+        font-size: 18px;
     }
+
+    .rightnav {
+        padding-right: 30px;
+        gap: 20px;
+        font-size: 16px;
+    }
+
+    /* --- Hero --- */
     #hometext {
-        width: 100%;
+        width: 55%;
+        padding: 80px 40px;
     }
-    #secondpage {
-        flex-direction: column;
+
+    #hometext p:nth-child(2) {
+        font-size: 70px;
     }
+
+    #homeimg img {
+        left: 35%;
+    }
+
+    /* --- About / Second page --- */
     .secdiv {
-        margin: 0px 0px;
+        margin: 0px 40px;
     }
-    .secdiv:nth-child(1) {
-        width: 100%;
-        height: 60%;
-        padding: 50px;
+
+    .secdiv:nth-child(1) h1 {
+        font-size: 45px;
     }
-    .secdiv:nth-child(2) {
-        width: 100%;
-        height: 40%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+
+    /* --- Services / Third page --- */
+    .thirdmindivtop:nth-child(1) p {
+        font-size: 40px;
     }
-    .secimgdiv {
-        border-radius: 30px;
-    }
-    #thirdpage {
-        height: 150vh;
-    }
+
     .thirdmindiv:nth-child(2) {
-        padding: 0px 0px;
-        flex-direction: column;
+        padding: 0px 30px;
     }
-    .thirdmindiv:nth-child(1) {
-        height: 25%;
+
+    .thirdcard {
+        width: 300px;
+        min-height: 320px;
+        padding: 35px;
     }
-    .thirdmindiv:nth-child(2){
-        height: 75%;
-        justify-content: space-evenly;
+
+    /* --- Features / Fourth page --- */
+    .fourthdivs:nth-child(1) {
+        padding: 0px 30px;
     }
-    .fourthmid:nth-child(1){
-        width: 45%;
+
+    .fourthdivs:nth-child(1) h1 {
+        font-size: 45px;
     }
-    .fourthmid:nth-child(2){
-        width: 50%;
+
+    .fourthdivs:nth-child(2) {
+        padding: 0px 30px;
     }
-    .fourthfoot:nth-child(1){
-        width: 45%;
+
+    .fourthdivs:nth-child(3) {
+        padding: 0px 30px;
     }
-    
-    .fourthfoot:nth-child(2){
+
+    .fourthmid:nth-child(1) {
+        width: 35%;
+    }
+
+    .fourthmid:nth-child(2) {
+        width: 60%;
+    }
+
+    .fourthfoot:nth-child(1) {
+        width: 30%;
+    }
+
+    .fourthfoot:nth-child(2) {
         display: none;
     }
-    .fourthfoot:nth-child(3){
-        width: 50%;
+
+    .fourthfoot:nth-child(3) {
+        width: 65%;
     }
-    .fifthcontent:nth-child(2){
-        flex-direction: column;
+
+    /* --- Testimonials / Fifth page --- */
+    .fifthmain:nth-child(1) h1 {
+        font-size: 35px;
     }
-    .fifthmain:nth-child(1){
-        width: 100%;
-        height: 60%;
+
+    .fifthcard {
+        width: 48%;
+        min-width: 280px;
     }
-    .fifthcard{
-        width: 49%;
-        height: 400px;
+
+    .fifthcontent:nth-child(1) {
+        padding: 0px 30px;
     }
-    .fifthmain:nth-child(2){
-        width: 100%;
-        height: 350px;
-        padding: 0px 0px;
-        margin-bottom: 20px;
+
+    .fifthcontent:nth-child(2) {
+        padding: 0px 30px;
     }
-    #foot{
-        height: 100%;
-        padding: 50px;
-        flex-direction: column;
-        gap: 50px;
-    }
-    .footdiv:nth-child(1){
-        width: 100%;
-        height: 45%;
-    }
-    .footdiv:nth-child(2){
-        width: 100%;
-        height: 50%;
-    }
-    .footimg{
-        width: 100%;
-        height: 100%;
-    }
-    .foothead{
-        margin-bottom: 50px;
-    }
-    #menu-bar a{
-        font-size: 30px;
-    }
-    .cross{
-        font-size: 30px;
-        top: 2%;
-        right: 7%;
+
+    /* --- Booking / Footer section --- */
+    #foot {
         padding: 30px;
+    }
+
+    .foothead h1 {
+        font-size: 35px;
     }
 }
-/* tab view */
-@media screen and (max-width:999px){
-    #homeimg img {
-        z-index: 0;
-        height: 50%;
-        bottom: 0;
-        left: 0;
+
+/* ---- TABLET / LARGE PHONE (max-width: 768px) ---- */
+@media screen and (max-width: 768px) {
+
+    /* --- Navbar --- */
+    nav {
+        height: 80px;
     }
+
+    .leftnav {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .rightnav {
+        padding-right: 20px;
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    #rightnav1 {
+        padding: 8px 15px;
+    }
+
+    #rightnav2 {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    /* --- Hero --- */
+    #home {
+        border-radius: 20px;
+        margin-top: 0.5%;
+    }
+
     #hometext {
         width: 100%;
+        min-height: calc(100vh - 80px);
+        padding: 60px 30px;
+        position: relative;
+        z-index: 1;
     }
+
+    #hometext p:nth-child(2) {
+        font-size: 55px;
+    }
+
+    #hometext p {
+        font-size: 16px;
+    }
+
+    #homeimg img {
+        height: 50%;
+        left: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+
+    #scrollarrow {
+        bottom: 5%;
+        right: 5%;
+    }
+
+    #scrollarrow p {
+        font-size: 12px;
+    }
+
+    /* --- About / Second page --- */
     #secondpage {
         flex-direction: column;
+        min-height: auto;
+        padding: 60px 0;
+        gap: 40px;
     }
+
     .secdiv {
-        margin: 0px 0px;
+        margin: 0px 30px;
     }
+
     .secdiv:nth-child(1) {
         width: 100%;
-        height: 60%;
-        padding: 50px;
+        min-height: auto;
+        padding: 30px;
     }
+
+    .secdiv:nth-child(1) h1 {
+        font-size: 38px;
+    }
+
     .secdiv:nth-child(2) {
         width: 100%;
-        height: 40%;
+        min-height: auto;
+        padding: 0 30px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     .secimgdiv {
-        border-radius: 30px;
-    }
-    #thirdpage {
-        height: 150vh;
-    }
-    .thirdmindiv:nth-child(2) {
-        padding: 0px 0px;
-        flex-direction: column;
-    }
-    .thirdmindiv:nth-child(1) {
-        height: 25%;
-    }
-    .thirdmindiv:nth-child(2){
-        height: 75%;
-        justify-content: space-evenly;
-    }
-    .fourthmid:nth-child(1){
-        width: 45%;
-    }
-    .fourthmid:nth-child(2){
-        width: 50%;
-    }
-    .fourthfoot:nth-child(1){
-        width: 45%;
-    }
-    
-    .fourthfoot:nth-child(2){
-        display: none;
-    }
-    .fourthfoot:nth-child(3){
-        width: 50%;
-    }
-    .fifthcontent:nth-child(2){
-        flex-direction: column;
-    }
-    .fifthmain:nth-child(1){
         width: 100%;
-        height: 60%;
+        height: auto;
+        max-height: 400px;
+        border-radius: 25px;
     }
-    .fifthcard{
-        width: 49%;
+
+    .secimgdiv img {
         height: 400px;
     }
-    .fifthmain:nth-child(2){
+
+    /* --- Services / Third page --- */
+    #thirdpage {
+        min-height: auto;
+        padding: 60px 0;
+    }
+
+    #thirdmain {
+        min-height: auto;
+        border-radius: 20px;
+    }
+
+    .thirdmindiv:nth-child(1) {
+        flex-direction: column;
+        min-height: auto;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    .thirdmindivtop:nth-child(1) {
         width: 100%;
-        height: 350px;
-        padding: 0px 0px;
+        padding: 20px 30px;
+    }
+
+    .thirdmindivtop:nth-child(1) p {
+        font-size: 32px;
+    }
+
+    .thirdmindivtop:nth-child(2) {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .thirdmindiv:nth-child(2) {
+        padding: 0px 30px;
+        min-height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thirdcard {
+        width: 100%;
+        max-width: 350px;
+        min-height: auto;
+        height: auto;
+    }
+
+    /* --- Features / Fourth page --- */
+    #fourthpage {
+        min-height: auto;
+        padding: 60px 0;
+        gap: 30px;
+    }
+
+    .fourthdivs {
+        min-height: auto;
+    }
+
+    .fourthdivs:nth-child(1) {
+        flex-direction: column;
+        padding: 0px 30px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .fourthdivs:nth-child(1) h1 {
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .fourthdivs:nth-child(1) p {
+        width: 100%;
+    }
+
+    .fourthdivs:nth-child(2) {
+        padding: 0px 30px;
+        flex-direction: column;
+    }
+
+    .fourthmid:nth-child(1) {
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .fourthmid:nth-child(2) {
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .fourthdivs:nth-child(3) {
+        padding: 0px 30px;
+        flex-direction: column;
+    }
+
+    .fourthfoot {
+        width: 100% !important;
+        min-height: 200px;
+    }
+
+    .fourthfoot:nth-child(2) {
+        display: none;
+    }
+
+    .fourthfoot:nth-child(1) h1,
+    .fourthfoot:nth-child(3) h1 {
+        width: 100%;
+    }
+
+    /* --- Testimonials / Fifth page --- */
+    #fifthpage {
+        min-height: auto;
+        padding: 60px 0;
+    }
+
+    #fifthdiv {
+        min-height: auto;
+        border-radius: 20px;
+        padding: 20px 0;
+    }
+
+    .fifthcontent:nth-child(1) {
+        min-height: auto;
+        padding: 20px 30px;
+    }
+
+    .fifthcontent:nth-child(2) {
+        flex-direction: column;
+        min-height: auto;
+        padding: 0px 30px;
+        gap: 30px;
+    }
+
+    .fifthmain:nth-child(1) {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .fifthmain:nth-child(1) h1 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .fifthdual {
+        flex-direction: column;
+    }
+
+    .fifthcard {
+        width: 100%;
+        min-width: unset;
+        min-height: auto;
+        height: auto;
+    }
+
+    .fifthmain:nth-child(2) {
+        width: 100%;
+        min-height: 350px;
+    }
+
+    /* --- Booking / Footer section --- */
+    #foot {
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .footdiv:nth-child(1) {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .footdiv:nth-child(2) {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .foothead {
+        flex-direction: column;
+        gap: 10px;
+        min-height: auto;
         margin-bottom: 20px;
     }
-    #foot{
-        height: 100%;
-        padding: 50px;
-        flex-direction: column;
-        gap: 50px;
-    }
-    .footdiv:nth-child(1){
+
+    .foothead h1 {
         width: 100%;
-        height: 45%;
+        font-size: 30px;
     }
-    .footdiv:nth-child(2){
+
+    .foothead p {
         width: 100%;
+        margin-top: 0;
+    }
+
+    form {
+        min-height: auto;
+    }
+
+    /* --- Menu bar --- */
+    #menu-bar a {
+        font-size: 24px;
+    }
+
+    .cross {
+        font-size: 25px;
+        padding: 20px;
+    }
+}
+
+/* ---- SMALL PHONES (max-width: 480px) ---- */
+@media screen and (max-width: 480px) {
+
+    /* --- Navbar --- */
+    nav {
+        height: 70px;
+    }
+
+    .leftnav {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .rightnav {
+        padding-right: 15px;
+        gap: 10px;
+    }
+
+    #rightnav1 {
+        display: none;
+    }
+
+    #rightnav2 {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    /* --- Hero --- */
+    #home {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #hometext {
+        padding: 50px 20px;
+        min-height: calc(100vh - 70px);
+    }
+
+    #hometext p:nth-child(2) {
+        font-size: 42px;
+    }
+
+    #hometext p {
+        font-size: 14px;
+    }
+
+    #hometext button {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    #homeimg img {
         height: 50%;
     }
-    .footimg{
-        width: 100%;
-        height: 100%;
+
+    #scrollarrow {
+        bottom: 15%;
+        right: -10%;
     }
-    .foothead{
-        margin-bottom: 50px;
+
+    #scrollarrow p {
+        font-size: 10px;
     }
-    #menu-bar a{
-        font-size: 30px;
+
+    /* --- About / Second page --- */
+    .secdiv {
+        margin: 0px 15px;
     }
-    .cross{
-        font-size: 30px;
+
+    .secdiv:nth-child(1) {
+        padding: 20px 15px;
+    }
+
+    .secdiv:nth-child(1) h1 {
+        font-size: 28px;
+    }
+
+    .secdiv:nth-child(2) {
+        padding: 0 15px;
+    }
+
+    .secimgdiv {
+        border-radius: 20px;
+    }
+
+    .secimgdiv img {
+        height: 300px;
+    }
+
+    .secdiv button {
+        padding: 12px 30px;
+    }
+
+    .roundimgdiv {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* --- Services / Third page --- */
+    .thirdmindivtop:nth-child(1) {
+        padding: 15px 15px;
+    }
+
+    .thirdmindivtop:nth-child(1) p {
+        font-size: 24px;
+    }
+
+    .thirdmindivtop:nth-child(2) {
+        padding: 0px 15px;
+    }
+
+    .thirdmindiv:nth-child(2) {
+        padding: 0px 15px;
+    }
+
+    .thirdcard {
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .thirdcard h1 {
+        font-size: 20px;
+    }
+
+    /* --- Features / Fourth page --- */
+    .fourthdivs:nth-child(1) {
+        padding: 0px 15px;
+    }
+
+    .fourthdivs:nth-child(1) h1 {
+        font-size: 26px;
+    }
+
+    .fourthdivs:nth-child(2) {
+        padding: 0px 15px;
+    }
+
+    .fourthdivs:nth-child(3) {
+        padding: 0px 15px;
+    }
+
+    .fourthmid:nth-child(1) h1 {
+        font-size: 18px;
+    }
+
+    .fourthfoot:nth-child(1) h1,
+    .fourthfoot:nth-child(3) h1 {
+        font-size: 18px;
+    }
+
+    /* --- Testimonials / Fifth page --- */
+    .fifthcontent:nth-child(1) {
+        padding: 0px 15px;
+    }
+
+    .fifthcontent:nth-child(2) {
+        padding: 0px 15px;
+    }
+
+    .fifthmain:nth-child(1) h1 {
+        font-size: 24px;
+    }
+
+    .fifthcard {
+        padding: 20px 15px;
+    }
+
+    .profile {
+        gap: 12px;
+    }
+
+    .profileimg {
+        width: 45px;
+        height: 45px;
+    }
+
+    #candidimg {
+        border-radius: 20px;
+    }
+
+    .fifthmain:nth-child(2) {
+        min-height: 250px;
+    }
+
+    /* --- Booking / Footer section --- */
+    #foot {
+        padding: 20px 15px;
+    }
+
+    .footdiv:nth-child(1) {
+        min-height: 220px;
+    }
+
+    .foothead h1 {
+        font-size: 24px;
+    }
+
+    .foothead p {
+        font-size: 12px;
+    }
+
+    input, textarea {
+        font-size: 14px;
+    }
+
+    /* --- Menu bar --- */
+    #menu-bar a {
+        font-size: 22px;
+    }
+
+    .cross {
+        font-size: 22px;
+        padding: 15px;
         top: 2%;
-        right: 7%;
-        padding: 30px;
+        right: 5%;
+    }
+
+    /* --- Footer --- */
+    footer p {
+        font-size: 12px;
     }
 }
